@@ -18,18 +18,12 @@ package org.jboss.aerogear.controller.demo.model;
 
 /**
  * The model car is where or domain is represented.
- *
+ * It's really important to note that it's an immutable object.
  */
 public class Car {
     private String color;
     private String brand;
 
-	/**
-	 * Car's constructor.
-	 * 
-	 * @param color - car's color
-	 * @param brand - car's brand
-	 */
     public Car(String color, String brand) {
         this.color = color;
         this.brand = brand;
