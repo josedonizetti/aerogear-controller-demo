@@ -24,8 +24,6 @@ import org.jboss.aerogear.controller.demo.model.Car;
  * Each method must have an associated route
  * so that it can respond to a requisition.
  *
- * @author QMX (Douglas Campos)
- * @since 1.0
  */
 public class Home {
 

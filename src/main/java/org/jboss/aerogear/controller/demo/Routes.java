@@ -26,8 +26,6 @@ import org.jboss.aerogear.controller.router.AbstractRoutingModule;
 * to the URL that it will respond.<br>
 * All the configuration is done with a easily type safe DSL.
 *
-* @author QMX (Douglas Campos)
-* @since 1.0
 * @see Home
 */
 

@@ -23,8 +23,6 @@ package org.jboss.aerogear.controller.demo.model;
  * The request's parameters must follow the convetion
  * <em> object.property </em>. Ex. <strong> car.color </brand>
  *
- * @author QMX (Douglas Campos)
- * @since 1.0
  */
 public class Car {
     private String color;
