@@ -32,7 +32,7 @@ import org.jboss.aerogear.controller.router.AbstractRoutingModule;
 public class Routes extends AbstractRoutingModule {
 
 	/**
-	 * Entry point to configure routes mapping to pojo controllers.
+	 * Entry point for configuring the routes mapping http requests to the pojo controllers
 	 */
     @Override
     public void configuration() {
