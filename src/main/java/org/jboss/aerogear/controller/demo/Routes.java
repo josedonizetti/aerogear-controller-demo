@@ -33,12 +33,6 @@ public class Routes extends AbstractRoutingModule {
 
 	/**
 	 * Entry point to configure routes mapping to pojo controllers.
-	 * <pre>
-	 * 	route()
-	 *		.from("/")
-	 *		.on(ResquestMethod.GET)
-	 *		.from(Home.class).index();
-	 * </pre>
 	 */
     @Override
     public void configuration() {
