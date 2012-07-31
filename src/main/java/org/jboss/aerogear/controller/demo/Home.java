@@ -28,8 +28,10 @@ import org.jboss.aerogear.controller.demo.model.Car;
 public class Home {
 
 	/**
-	 * Respond to a GET resquest to "/" and then
-	 * redirect the answer to <em>WEB-INF/pages/Home/index.jsp</em>
+	 * Respond to a GET resquest to "/". The response page follow
+	 * a convention, having a <em>folder/jsp</em> at the directory <em>WEB-INF/pages</em>.
+	 * The folder/jsp are named after the bussinees controller class/method been called respectively.
+	 * Ex: <em>WEB-INF/pages/Home/index.jsp</em>
 	 * @see Routes
 	 */
     public void index() {
@@ -37,7 +39,10 @@ public class Home {
     }
 
 	/**
-	 * Respond to a GET request to "/delorean"
+	 * Respond to a GET request to "/delorean". The response page follow
+	 * a convention, having a <em>folder/jsp</em> at the directory <em>WEB-INF/pages</em>.
+	 * The folder/jsp are named after the bussinees controller class/method been called respectively.
+	 * Ex: <em>WEB-INF/pages/Home/anotherPage.jsp</em>
      * redirect the answer to <em>WEB-INF/pages/Home/anotherPage.jsp</em>.
      * The Car object create is exposed to the <em>anotherPage.jsp</em>
      * and might be accessed using Expression Language. The naming convetion
@@ -51,8 +56,10 @@ public class Home {
     }
 
 	/**
-	 * Respond to a POST request "/cars" 
-	 * redirect the answer to <em>WEB-INF/pages/Home/save.jsp</em>.
+	 * Respond to a POST request "/cars". The response page follow
+	 * a convention, having a <em>folder/jsp</em> at the directory <em>WEB-INF/pages</em>.
+	 * The folder/jsp are named after the bussinees controller class/method been called respectively.
+	 * Ex: <em>WEB-INF/pages/Home/save.jsp</em«
 	 * The returned Car object is exposed to the <em>save.jsp</em>
 	 * and might be accessed using Expresion Language. The naming convetion
 	 * used to expose the object is the class name in camel case. Ex: <pre>${car.brand}</pre>
