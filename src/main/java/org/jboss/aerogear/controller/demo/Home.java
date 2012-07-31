@@ -19,8 +19,8 @@ package org.jboss.aerogear.controller.demo;
 import org.jboss.aerogear.controller.demo.model.Car;
 
 /**
- * <em>Home</em> is a pojo class which will treat
- * requests send to these application.
+ * <em>Home</em> is a pojo class which treats
+ * requests of these application.
  * Each method must have an associated route
  * so that it can respond to a requisition.
  *
@@ -39,7 +39,7 @@ public class Home {
 	/**
 	 * Respond to a GET request to "/delorean"
      * redirect the answer to <em>WEB-INF/pages/Home/anotherPage.jsp</em>.
-     * The Car object create will be exposed to the <em>anotherPage.jsp</em>
+     * The Car object create is exposed to the <em>anotherPage.jsp</em>
      * and might be accessed using Expression Language. The naming convetion
 	 * used to expose the object is the class name in camel case. Ex: <pre>${car.brand}</pre>
 	 *
@@ -53,7 +53,7 @@ public class Home {
 	/**
 	 * Respond to a POST request "/cars" 
 	 * redirect the answer to <em>WEB-INF/pages/Home/save.jsp</em>.
-	 * The returned Car object will be exposed to the <em>save.jsp</em>
+	 * The returned Car object is exposed to the <em>save.jsp</em>
 	 * and might be accessed using Expresion Language. The naming convetion
 	 * used to expose the object is the class name in camel case. Ex: <pre>${car.brand}</pre>
 	 *
