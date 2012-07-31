@@ -16,10 +16,26 @@
  */
 package org.jboss.aerogear.controller.demo.model;
 
+/**
+ * The model car is where or domain is represented.
+ * It will be populated with data send using POST, 
+ * as specified in {@link Routes}.<br> 
+ * The request's parameters must follow the convetion
+ * <em> object.property </em>. Ex. <strong> car.color </brand>
+ *
+ * @author QMX (Douglas Campos)
+ * @since 1.0
+ */
 public class Car {
     private String color;
     private String brand;
 
+	/**
+	 * Car's constructor.
+	 * 
+	 * @param color - car's color
+	 * @param brand - car's brand
+	 */
     public Car(String color, String brand) {
         this.color = color;
         this.brand = brand;

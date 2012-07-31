@@ -20,8 +20,30 @@ import org.jboss.aerogear.controller.RequestMethod;
 import org.jboss.aerogear.controller.demo.model.Car;
 import org.jboss.aerogear.controller.router.AbstractRoutingModule;
 
+/**
+* Routes are the core of aerogear-controller–demo.
+* It's where we bind the the application bussines controller {@link Home} 
+* to the URL that it will respond.<br>
+* All the configuration is done with a easily type safe DSL.
+*
+* @author QMX (Douglas Campos)
+* @since 1.0
+* @see Home
+*/
+
 public class Routes extends AbstractRoutingModule {
 
+	/**
+	 * Will be called to populate routes (urls),
+	 * the application should be able to anwser. <br>
+	 * Example:
+	 * <pre>
+	 * 	route()
+	 *		.from("/")
+	 *		.on(ResquestMethod.GET)
+	 *		.from(Home.class).index();
+	 * </pre>
+	 */
     @Override
     public void configuration() {
         route()
