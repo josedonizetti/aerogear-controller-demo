@@ -18,10 +18,6 @@ package org.jboss.aerogear.controller.demo.model;
 
 /**
  * The model car is where or domain is represented.
- * It will be populated with data send using POST, 
- * as specified in {@link Routes}.<br> 
- * The request's parameters must follow the convetion
- * <em> object.property </em>. Ex. <strong> car.color </brand>
  *
  */
 public class Car {

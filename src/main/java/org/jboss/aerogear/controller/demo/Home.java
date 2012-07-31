@@ -20,7 +20,7 @@ import org.jboss.aerogear.controller.demo.model.Car;
 
 /**
  * <em>Home</em> is a pojo class which will treat
- * the requisitions send to these application.
+ * requests send to these application.
  * Each method must have an associated route
  * so that it can respond to a requisition.
  *

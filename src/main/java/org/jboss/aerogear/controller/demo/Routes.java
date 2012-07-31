@@ -24,7 +24,7 @@ import org.jboss.aerogear.controller.router.AbstractRoutingModule;
 * Routes are the core of aerogear-controller–demo.
 * It's where we bind the the application bussines controller {@link Home} 
 * to the URL that it will respond.<br>
-* All the configuration is done with a easily type safe DSL.
+* All the configuration is done with a type safe DSL.
 *
 * @see Home
 */
@@ -32,9 +32,7 @@ import org.jboss.aerogear.controller.router.AbstractRoutingModule;
 public class Routes extends AbstractRoutingModule {
 
 	/**
-	 * Will be called to populate routes (urls),
-	 * the application should be able to anwser. <br>
-	 * Example:
+	 * Entry point to configure routes mapping to pojo controllers.
 	 * <pre>
 	 * 	route()
 	 *		.from("/")
